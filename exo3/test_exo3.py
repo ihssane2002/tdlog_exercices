@@ -10,7 +10,6 @@ class TestExo3(unittest.TestCase):
 
         with open("sample/output1.txt") as output1:
             expected = output1.read()
-
         self.assertEqual(expected, processLines(lines))
 
     # Ecrire une autre méthode pour vérifier le second use case
